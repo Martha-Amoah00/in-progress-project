@@ -1,0 +1,240 @@
+
+
+
+body{
+    background-color:rgb(25, 73, 204) ;
+    margin: 0px;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+    width: 100%;
+}
+
+.logo{
+    text-decoration: none;
+    color: black;
+    font-family: "Gupter", serif;
+  font-weight: bold;
+  font-size: 2rem;
+  font-style: italic;
+  padding-left: 20px;
+}
+#header{
+    background-color: whitesmoke;
+    width: 100%;
+    padding: 20px;
+    margin: 0px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    flex-shrink: 0px;
+}
+
+navbar {
+        margin-left: 100px;
+        position: relative;
+        right: 30px;
+        display: inline-flex;
+        flex-shrink: 5px;
+}
+navbar a {
+    display: inline-flex;
+    color: #000;
+    font-size: 20px;
+    margin-left: 30px;
+    text-decoration: none;
+    border-style: outset;
+    border-width: 0px;
+    box-shadow: 2px 2px red;
+    font-family: "Gupter", serif;
+  font-weight: bold;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  flex-wrap: unset;
+  
+
+    
+}
+.Name{
+    padding:30px;
+    margin-top: 150px;
+    margin-left: 30px;
+    display: flex;
+    background-color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    
+    box-shadow: 10px 10px;
+    
+    border-style: outset;
+    
+}
+.Name-content{
+    
+    display: flex;
+    margin: 0px;
+    flex-shrink: 2px;
+    flex-wrap: nowrap;
+    
+}
+.Name-content h1 {
+
+    color: black;
+    font-weight: bold;
+    font-size: 4rem;
+    margin: 30px;
+    padding: 0px;
+
+
+}
+
+
+
+.plan{
+    display: flex;
+    position: relative;
+    left: 50px;
+    background-color: orangered;
+    text-decoration: none;
+    width: 90px;
+    
+   
+    font-size: 20px;
+    color: #000;
+}
+.h1 a {
+    background-color: red;
+    text-align: center;
+    padding: 20px;
+    border-style: outset;
+    box-sizing: 30px;
+    
+}
+.heading h3{
+    color: aliceblue;
+    font-size: 2rem;
+    line-height: 0px;
+    margin:0px
+    
+    font-family: "Stardos Stencil", system-ui;
+}
+hr{
+    height:5px;
+    width: 500px;
+    color:white;
+    border-style: onset ;
+    background-color: white;
+    margin: 0%;
+}
+
+
+     
+     
+
+ .Name-content img{
+    height: 300px;
+    width: 300px;
+    flex-shrink: 10px ;
+    display: flex;
+    margin: 0px;
+    border-radius: 30%;
+   overflow: hidden;
+    border-style: outset;
+   
+}
+
+#header1 {
+    
+    background-color: aliceblue;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 250px;
+    
+}
+
+.about{
+    padding-top: 10px;
+    font-size: 3rem;
+    font-family: "Stardos Stencil", system-ui;
+}
+
+.about h1{
+    padding-top: 10px;
+    font-size: 3rem;
+    font-family: "Stardos Stencil", system-ui;
+}
+.about-content {
+    display: inline-flex;
+    font-size: 20px;
+    font-family: "Stardos Stencil", system-ui;
+    background-color: aliceblue;
+    width: 50%;
+    color: black;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 4, 0.19);
+    padding: 50px;
+}
+
+
+
+#header2 {
+    margin-top: 70px;
+      
+} 
+.project h1 {
+    font-size: 3rem;
+    font-family: "Stardos Stencil", system-ui;
+    margin-top: 100px;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left:80px ;
+    margin-right: 80px;
+    border-radius: 40px;
+}
+.project-content {
+    background-color: aliceblue;
+    width: 250px;
+    overflow: hidden;
+    margin: 20px;
+    border-radius: 30px;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 4, 0.19);
+    border-style: outset;
+}
+
+.project-content img {
+    height: 200px;
+    width: 200px;
+    
+    margin-bottom: 10px;
+}
+
+.card-content p {
+    margin: 0px;
+}
+
+.button{
+    margin-bottom:10px ;
+    background-color: white;
+    display: inline-block;
+    padding: 8px;
+    text-decoration: none;
+    border-style: outset;
+    box-shadow: 2px 2px red;
+    border: 0px;
+}
